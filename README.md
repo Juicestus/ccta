@@ -9,7 +9,10 @@ How to install basically:
  * Linux:    ```apt-get install curl```
  * Windows: I don't fucking know lmfao
 
-On unix, in this dir, run:\
+On unix, run:\
+```git clone git clone https://github.com/Juicestus/ccta.git```\
+```cd ccta```\
+```mkdir bin```\
 ```g++ -std=c++11 -o bin/ccta src/ccta.cpp -lcurl```\
 to compile and save the binary in bin.\
 If you want to use it from local binaries, run\
